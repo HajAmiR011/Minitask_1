@@ -1,0 +1,20 @@
+@import "./setting/setting.css";
+@import "./mobile/main.css";
+@import "./mobile/tablet.css" only screen and (min-width: 500px);
+@import "./desktop/main.css" only screen and (min-width: 1100px);
+body {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  direction: rtl;
+}
+main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #2b2b2b;
+}

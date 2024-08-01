@@ -1,0 +1,37 @@
+header {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  nav {
+    justify-content: center;
+    div {
+      width: auto;
+      a {
+        display: block;
+        padding: 0 15px;
+      }
+    }
+  }
+}
+.container {
+  .txt {
+    width: 716px;
+    height: 142px;
+    background-color: #33333352;
+    /* position: absolute;
+      top: calc(50% - 142px / 2);
+      right: calc(50% - 716px / 2); */
+    position: absolute;
+    inset: 0;
+    margin: auto;
+  }
+}
+.product {
+  flex-flow: row wrap;
+  padding: 10px 0;
+  margin-bottom: 0;
+  column-gap: 10px;
+}
+footer {
+  position: unset;
+}

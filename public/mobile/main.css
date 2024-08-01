@@ -1,0 +1,115 @@
+header {
+  width: 100%;
+  height: 40px;
+  background-color: #2b2b2b;
+  position: fixed;
+  bottom: 0;
+  max-width: 1920px;
+  nav {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-flow: row wrap;
+    direction: ltr;
+    div {
+      text-align: center;
+      width: 25%;
+      height: inherit;
+      a {
+        display: block;
+        width: 100%;
+        line-height: 40px;
+        height: inherit;
+        color: whitesmoke;
+        text-decoration: none;
+        font-family: var(--fonts);
+        &:hover {
+          background-color: #333;
+        }
+      }
+    }
+  }
+}
+.container {
+  background: url(../images/bk-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  max-width: 1920px;
+  .txt {
+    width: 100%;
+    height: auto;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    color: whitesmoke;
+    font-family: var(--fonts);
+    max-width: 1920px;
+    margin-top: 31px;
+    h1 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+}
+.product {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 50px;
+  max-width: 1429px;
+  margin-bottom: 30px;
+  row-gap: 10px;
+  .pro {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #33333352;
+    box-shadow: 3px 3px 20px #00000023;
+    max-width: 350px;
+    .img {
+      width: inherit;
+      height: 200px;
+      img {
+        width: inherit;
+        height: inherit;
+        object-fit: cover;
+      }
+    }
+    .content {
+      font-size: 12px;
+      color: whitesmoke;
+      font-family: var(--fonts);
+      text-align: justify;
+      padding: 10px 15px;
+    }
+  }
+}
+footer {
+  width: 100%;
+  background-color: #2b2b2b;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  p {
+    max-width: 1920px;
+    padding: 5px;
+    background-color: red;
+    color: #fff;
+    width: 100%;
+    font-size: 15px;
+    font-family: var(--fonts);
+    text-align: center;
+  }
+}

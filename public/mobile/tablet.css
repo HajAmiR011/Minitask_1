@@ -1,0 +1,5 @@
+.product {
+  flex-flow: row wrap;
+  column-gap: 2rem;
+  margin-bottom: 40px;
+}
